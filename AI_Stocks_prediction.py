@@ -218,9 +218,3 @@ if run_button:
     st.write(f'Pearson correlation between lagged sentiment score and stock percentage change: {correlation_pct_change}')
     forecast_mean, forecast_ci, forecast_index = fit_and_forecast(combined_df)
     create_plot(combined_df, forecast_mean, forecast_ci, forecast_index)
-
-
-
-
-
-
